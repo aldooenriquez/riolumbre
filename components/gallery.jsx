@@ -54,6 +54,48 @@ export default function Gallery() {
         w="100%"
         h="auto"
       />
+      <Image
+        src="/assets/muestras/muestra6.JPG"
+        gridColumn={["1", "3", "3", "3"]}
+        w="100%"
+        h="auto"
+      />
+      <Image
+        src="/assets/muestras/muestra7.JPG"
+        gridColumn="1"
+        w="100%"
+        h="auto"
+      />
+      <Image
+        src="/assets/muestras/muestra8.JPG"
+        gridColumn={["1", "2", "2", "2"]}
+        w="100%"
+        h="auto"
+      />
+      <Image
+        src="/assets/muestras/muestra9.jpeg"
+        gridColumn={["1", "3", "3", "3"]}
+        w="100%"
+        h="auto"
+      />
+      <Image
+        src="/assets/muestras/muestra10.jpeg"
+        gridColumn="1"
+        w="100%"
+        h="auto"
+      />
+      <Image
+        src="/assets/muestras/muestra11.jpeg"
+        gridColumn={["1", "2", "2", "2"]}
+        w="100%"
+        h="auto"
+      />
+      <Image
+        src="/assets/muestras/muestra12.jpeg"
+        gridColumn={["1", "3", "3", "3"]}
+        w="100%"
+        h="auto"
+      />
     </Grid>
   );
 }
