@@ -29,7 +29,6 @@ export default function Home() {
   const { isOpen: openRoomService, onToggle: toggleRoomService } =
     useDisclosure();
   const { isOpen: openGallery, onToggle: toggleGallery } = useDisclosure();
-
   return (
     <>
       <Head>
