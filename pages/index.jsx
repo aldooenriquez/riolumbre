@@ -22,6 +22,7 @@ import { FiInstagram } from "react-icons/fi";
 import Head from "next/head";
 import React from "react";
 import Gallery from "../components/gallery";
+import ToTopArrow from "../components/arrow";
 
 export default function Home() {
   const { isOpen: openDesayuno, onToggle: toggleDesayuno } = useDisclosure();
@@ -604,6 +605,7 @@ export default function Home() {
           <Collapse in={openGallery} animateOpacity w="50%" h="auto">
             <Gallery />
           </Collapse>
+          <ToTopArrow />
         </Center>
         <Flex flexDir="column" w="100%" h="auto" textAlign="center" m="30px">
           <Text fontFamily="josefin sans" fontSize={["sm", "md", "lg", "lg"]}>
