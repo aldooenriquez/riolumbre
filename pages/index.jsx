@@ -368,13 +368,13 @@ export default function Home() {
                   >
                     Mollejas <br />
                     Codorniz <br />
-                    Pollo madurado <br />
+                    Pollo de leche <br />
                     Chistorra <br />
                     Chorizo artesanal <br />
                     Tomahawk <br />
                     Rib eye <br />
                     Vacío <br />
-                    Arrachera <br />
+                    Entraña <br />
                     Short rib
                   </Text>
                 </Box>
@@ -389,7 +389,22 @@ export default function Home() {
                     POSTRE DEL ASADOR
                   </Text>
                 </Box>
-                <Box gridColumn="1/4" gridRow="7" h="50px" />
+                <Box gridColumn="2/4" gridRow="7">
+                  <Text
+                    fontFamily="josefin sans"
+                    fontSize="lg"
+                    color="white"
+                    pt="10px"
+                    w="auto"
+                    textAlign="center"
+                  >
+                    *Nuestras carnes están sometidas a un proceso de maduración
+                    <br />
+                    (no mayor a 30 días), ideado y finalmente un ahumado con
+                    leña local.
+                  </Text>
+                </Box>
+                <Box gridColumn="1/4" gridRow="8" h="50px" />
               </Grid>
             </Flex>
           </Collapse>
@@ -506,7 +521,7 @@ export default function Home() {
                     pt="10px"
                   >
                     Hamburguesa de la casa <br />
-                    &emsp; Tiritas de papa frita, curtidas de la casa
+                    &emsp; Papatinas de papa frita, curtidas de la casa
                   </Text>
                 </Box>
                 <Box gridColumn="3" gridRow="8">
